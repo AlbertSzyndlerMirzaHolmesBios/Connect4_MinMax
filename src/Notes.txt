@@ -1,0 +1,15 @@
+This is created for https://connect-4.org/en
+
+Create Calibration Class, finds the top left corner, then the one to the left then uses that data to find the rest
+of the squares
+
+Create class to scan over the board using the calibrate coords, scans the board at set intervals and checks to see if
+it is different from the previous scan and if so then the turn is switched from the other player to the AI and vise
+versa. To start, attempt to make a move, if the board does not change then it is the opponents turn this info can be
+used to detect what colour the AI is.
+
+Write AI using the minimax algo, you have to learn it now nerd, create class for this and then one to control the mouse.
+
+Have a Gamestate class that scans though the board at set intervals and creates a char array of the game state based on
+what rgb values are in each square (these can be hard coded in as they never change), if the board is different then
+the turn is switched
